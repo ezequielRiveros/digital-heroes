@@ -19,7 +19,7 @@ const home_message="Ni Superman, Iron Man o La Mujer Maravilla son tan important
 // CONSIGNA 1
 // Ruta Raíz / Home
 app.get('/', function(req,res){
-  res.send(JSON.stringify(home_message))
+  res.json(home_message)
 });
 
 // CONSIGNA 2
