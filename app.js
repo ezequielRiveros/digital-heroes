@@ -6,7 +6,7 @@ const app = express()
 // PASO 3: Informacion que vamos a usar
 // Crea una variable (por ej. heroes) y asignale como valor el contenido del archivo "heroes.json"
 // Tip: podes usar el require como si fuera un modulo ;)
-const heroes=require('./heroes.json') //si el archivo es .json te deja 
+const heroes=require('./heroes.json') //si el archivo es .json te deja obtener los datos
 console.log(heroes)
 // PASO 4: Configurando el servidor
 // Crea una constante llamada PORT y asignale como valor el numero tres mil
